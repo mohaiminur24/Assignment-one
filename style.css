@@ -144,5 +144,65 @@ ul{
     justify-content: start;
     align-items: center;
     border-radius: 10px;
+}
+/* footer part start */
 
+.footer{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    margin: auto;
+    gap: 400px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.footer-main{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+}
+.footer h2{
+    font-size: 2rem;
+    font-weight: 900;
+}
+.footer p{
+    color: grey;
+    line-height: 20px;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+.footer h6{
+    color: grey;
+    margin-bottom: 15px !important;
+}
+.social{
+    display: flex;
+    gap: 10px;
+}
+
+.subscribe{
+    margin-right: 100px;
+}
+.subscribe h5{
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+.subscribe input[type="email"]{
+    width: 250px;
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid rgb(199, 198, 198);
+    outline: none;
+    color: rgb(158, 156, 156);
+    padding: 0px 10px;
+}
+.subscribe input[type="submit"]{
+    background-color: rgb(49, 94, 199);
+    padding: 8px 35px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    color: white;
 }
