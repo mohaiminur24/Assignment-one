@@ -18,6 +18,16 @@ a{
     border-radius: 5px;
     margin: 15px 0px;
 }
+.title{
+    font-size: 1.9rem;
+    text-align: center;
+    margin: 50px 0px;
+}
+
+
+/* banner section start */
+
+
 .banner{
     width: 100%;
     background-image: url(images/banner/banner3.png);
@@ -78,3 +88,25 @@ ul{
    margin-left: 10px;
    font-size: 13px;
 }
+
+/* My plans section start */
+
+.skill-section{
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.skill-section h4{
+    font-size: 1.3rem;
+    margin-top: 10px;
+    color: #000;
+    font-weight: 900;
+}
+.skill-section p{
+    color: grey;
+    font-weight: 400;
+}
+
+/* My plan section end  */
