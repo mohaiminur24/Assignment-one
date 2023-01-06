@@ -45,3 +45,36 @@ a{
     color: rgb(237, 237, 237);
     line-height: 20px;
 }
+/* failure sections start */
+
+.failures-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 100px auto;
+    gap: 100px;
+}
+.failures-section h4{
+    color: #000;
+    font-size: 3rem;
+    line-height: 50px;
+    margin-bottom: 25px;
+    width: 300px;
+}
+.failures-section p{
+    font-size: 13px;
+    color: grey;
+}
+ul{
+    list-style: "✓ ";
+    list-style-position: inside;
+    color: green;
+    margin-top: 20px;
+
+}
+.ul-li{
+   color: grey;
+   margin-left: 10px;
+   font-size: 13px;
+}
