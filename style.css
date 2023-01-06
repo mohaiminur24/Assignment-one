@@ -218,8 +218,8 @@ ul{
     gap: 100px;
 }
 .advice form{
-    margin-right: 100px;
-    background-color: rgb(124, 194, 247 , .5);
+
+    background-color: rgb(124, 194, 247 , .1);
     border-radius: 10px;
     padding: 50px 50px;
 }
@@ -273,6 +273,8 @@ ul{
     border: none;
     outline: none;
     cursor: pointer;
+    background-color: rgb(88, 105, 128);
+    color: white;
 }
 .advice input,textarea{
     outline: none;
