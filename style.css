@@ -206,3 +206,76 @@ ul{
     font-size: 1.2rem;
     color: white;
 }
+
+/* advice section start */
+
+.advice{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 150px auto;
+    align-items: center;
+    gap: 100px;
+}
+.advice form{
+    margin-right: 100px;
+    background-color: rgb(124, 194, 247 , .5);
+    border-radius: 10px;
+    padding: 50px 50px;
+}
+.advice h3{
+    font-size: 2rem;
+    color: rgb(77, 108, 201);
+
+}
+.advice p{
+    color: grey;
+    line-height: 20px;
+    font-size: 13px;
+    opacity: 50%;
+}
+.advice input[name="name"]{
+    background-color: transparent;
+    display: inline-block;
+    width: 40%;
+    border: 1px solid rgb(177, 175, 175);
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 5px;
+    margin-bottom: 10px;
+    outline: none;
+}
+.advice input[name="topic-title"]{
+    width: 85%;
+    border: 1px solid rgb(177, 175, 175);
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 5px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    outline: none;
+}
+.advice textarea{
+    max-width: 300px;
+    max-height: 100px;
+    min-width: 200px;
+    min-height: 50px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border: 1px solid rgb(177, 175, 175);
+    outline: none;
+}
+.advice input[type="submit"]{
+    padding: 5px 25px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.advice input,textarea{
+    outline: none;
+    font-size: 13px;
+    color: grey;
+}
